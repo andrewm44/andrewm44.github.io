@@ -13,7 +13,7 @@ Makes use of the python-broadlink solution
 
  1. Download the repo - in my case to a Windows machine
 
- 2. Go into the cli folder
+ 2. Go into the cli folder and run ```python broadlink_discovery```
 
  3. after a few seconds, this returns the details of the Broadlink Gateway
 e.g.
@@ -26,3 +26,9 @@ temperature = 0.0
 ```
 
 this gives data including (for me) the type - 0x649b, host IP - 192.168.1.88, mac address ec0bae3df6e0
+
+using these values, run ```python broadlink_cli --device "0x649b 192.168.1.88 ec0bae3df6e0" --rfscanlearn```
+
+
+
+
