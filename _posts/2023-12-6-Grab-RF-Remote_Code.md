@@ -27,7 +27,12 @@ temperature = 0.0
 
 this gives data including (for me) the type - 0x649b, host IP - 192.168.1.88, mac address ec0bae3df6e0
 
-using these values, run ```python broadlink_cli --device "0x649b 192.168.1.88 ec0bae3df6e0" --rfscanlearn```
+using these values, run
+ ```python broadlink_cli --device "0x649b 192.168.1.88 ec0bae3df6e0" --rfscanlearn```
+
+then press the required button on the existing remote, to learn the code - hold the button until it tells you to stop, then it will tell you to press again
+
+The second press should return the code on the terminal - copy the Base64 part.
 
 
 
