@@ -32,7 +32,8 @@ using these values, run
 
 then press the required button on the existing remote, to learn the code - hold the button until it tells you to stop, then it will tell you to press again
 
-The second press should return the code on the terminal - copy the Base64 part.
+The second press should return the code on the terminal - copy the forst (not Base64) part.
+This is the code to be submitted to the Broadlink device for this button action
 
 
 
